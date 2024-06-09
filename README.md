@@ -7,7 +7,7 @@
 ## Indhold
 1. Projektbeskrivelse
 2. Installation og Opsætning
-3. [GitHub Flow](#github-flow)
+3. GitHub Flow
 4. Statisk Kodeanalyse
 5. Refaktoreringsdokumentation
 6. Unit Testing
