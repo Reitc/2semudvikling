@@ -37,45 +37,6 @@ Følg disse trin for at klone og opsætte projektet lokalt:
     npm run dev
     ```
 
-## GitHub Flow
-Dette projekt anvender GitHub Actions til CI/CD. Følgende workflow konfigureres til at køre ved hvert push:
-
-```yaml
-name: 'Linting and testing'
-
-on: push
-
-jobs:
-  linting:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: install packages
-        run: npm install
-      - name: run lint
-        run: npm run lint
-
-  E2ETest:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          install: npm install
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm run dev
-
-  UnitTest:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: install packages
-        run: npm install
-      - name: Run unit tests
-        run: npm run test:unit
-```
 ## Refaktorisering med Statisk Kodeanalyse
 ### ESLint
 Projektet bruger ESLint til statisk kodeanalyse for at sikre, at koden opfylder god praksis og standarder. Følg disse trin for at køre ESLint:
