@@ -7,12 +7,10 @@
 ## Indhold
 1. Projektbeskrivelse
 2. Installation og Opsætning
-3. GitHub Flow
-4. Statisk Kodeanalyse
-5. Refaktoreringsdokumentation
-6. Unit Testing
-7. End-To-End (E2E) Testing
-8. Konklusion
+3. Refaktoring med Statisk Kodeanalyse
+4. Unit Testing
+5. End-To-End (E2E) Testing
+6. GitHub Flow
 
 ## Projektbeskrivelse
 Dette projekt er en del af eksamensopgaverne og er et Vue.js projekt, der anvender Git til versionsstyring. Projektet inkluderer statisk kodeanalyse, refaktorisering, unit tests og End-To-End (E2E) tests. Projektet er hostet på GitHub og følger et GitHub flow til CI/CD.
