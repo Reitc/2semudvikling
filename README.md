@@ -5,14 +5,14 @@
 # Vue Project for Eksamensopgaver
 
 ## Indhold
-1. [Projektbeskrivelse](#projektbeskrivelse)
-2. [Installation og Opsætning](#installation-og-opsætning)
+1. Projektbeskrivelse
+2. Installation og Opsætning
 3. [GitHub Flow](#github-flow)
-4. [Statisk Kodeanalyse](#statisk-kodeanalyse)
-5. [Refaktoreringsdokumentation](#refaktoreringsdokumentation)
-6. [Unit Testing](#unit-testing)
-7. [End-To-End (E2E) Testing](#end-to-end-e2e-testing)
-8. [Konklusion](#konklusion)
+4. Statisk Kodeanalyse
+5. Refaktoreringsdokumentation
+6. Unit Testing
+7. End-To-End (E2E) Testing
+8. Konklusion
 
 ## Projektbeskrivelse
 Dette projekt er en del af eksamensopgaverne og er et Vue.js projekt, der anvender Git til versionsstyring. Projektet inkluderer statisk kodeanalyse, refaktorisering, unit tests og End-To-End (E2E) tests. Projektet er hostet på GitHub og følger et GitHub flow til CI/CD.
